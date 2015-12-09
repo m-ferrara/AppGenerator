@@ -1,0 +1,1 @@
+define(function(){var EndpointActi $APP URL_ROOT + 'webservice/endpoint_action_attribute_mapping',validate: function(){}});return EndpointActionAttributeMapping;});

@@ -1,0 +1,48 @@
+{
+	"projects" : [{
+			"id" : 1,
+			"name" : "App-Generator",
+			"time" : 1410140589475
+		}
+	],
+	"requests" : [{
+			"id" : 2,
+			"encoding" : "application/x-www-form-urlencoded",
+			"headers" : "X-API-KEY: ninja",
+			"method" : "GET",
+			"name" : "GetAttributeById",
+			"payload" : "",
+			"project" : 1,
+			"skipHeaders" : false,
+			"skipHistory" : false,
+			"skipMethod" : false,
+			"skipParams" : false,
+			"skipPath" : false,
+			"skipPayload" : false,
+			"skipProtocol" : false,
+			"skipServer" : false,
+			"time" : 1410714785439,
+			"url" : "http://localhost/App-Generator/webservice/Attribute?id=1",
+			"driveId" : ""
+		}, {
+			"id" : 3,
+			"encoding" : "application/x-www-form-urlencoded",
+			"headers" : "X-API-KEY: ninja\nContent-Type: application/json",
+			"method" : "POST",
+			"name" : "PostNewAttribute",
+			"payload" : "{\n\"name\": \"attribute2\",\n\"type\": \"2\",\n\"regex_pattern\": \"fffffqqqq\",\n\"is_primary_key\": \"1\",\n\"is_unique\": \"1\",\n\"length\": \"128\"\n}",
+			"project" : 1,
+			"skipHeaders" : false,
+			"skipHistory" : false,
+			"skipMethod" : false,
+			"skipParams" : false,
+			"skipPath" : false,
+			"skipPayload" : false,
+			"skipProtocol" : false,
+			"skipServer" : false,
+			"time" : 1410736819356,
+			"url" : "http://localhost/App-Generator/webservice/attribute",
+			"driveId" : ""
+		}
+	]
+}

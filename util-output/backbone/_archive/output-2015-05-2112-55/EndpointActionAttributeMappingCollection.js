@@ -1,0 +1,1 @@
+define(['models/EndpointActionAttributeMapping'], function(EndpointActionAttributeMapping){var EndpointActi EndpointActionAttributeMapping,url: $APP_URL_ROOT + 'webservice/endpoint_action_attribute_mappings'});return EndpointActionAttributeMappingCollection;});
